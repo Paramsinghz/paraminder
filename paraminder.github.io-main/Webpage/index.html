@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="portfolioicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="img.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+    <!-- <div class="media"> -->
+    <header class="container heads">
+        <nav class="flex space-between">
+            <div class="left flex items-center">
+                <img class="portfoliopic" src="portfoliotext.png" alt="">
+                <ul class="flex items-center justify-center uppercase semibold">
+                    <li>Home</li>
+                    <li>Skills</li>
+                    <li>Education</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="right flex items-center semibold">
+                <input class="search" placeholder="Search Skills, Projects" class= "" type="text">
+
+                <div class="rightBox">
+                    <div class="Contact mx-2">Contact</div>
+                    <div class="LinkedIn mx-2">LinkedIn</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="containerHeader section1 flex" >
+       
+            <img class= "profilepic" src="updatedpic.jpg" alt="img">
+               
+        <table class="tabletext">
+        <tr style="height:0px;">
+            
+            <!-- <button onload="typeWriter()" >Click me</button> -->
+            <td class="name semibold" id="demo">I'm <span class = "auto-type"></span></td>
+            <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["Paraminder Singh", "a Web Developer", "a Data Analyst", "a Musician"],
+                    typeSpeed: 60,
+                    backSpeed: 60,
+                    loop: true
+                })
+            </script>
+           
+            
+        <!-- </tr> -->
+        
+
+        <!-- <tr style="height:0px; word-wrap:break-word;">
+            <td class="stream semibold">B.Tech. CSE</td>
+            
+        </tr>
+
+        <tr style="height:0px; justify-content:last baseline; text-align: justify;">
+            <td style="text-align: justify;">
+                Passionate about Computer Science 
+                with few years of learning and 
+                working on projects. Strong, <br> creative 
+                and analytical skills. 
+                Team player with 
+                an eye for detail. <br>
+                An innovative thinker, initiative taker and multi 
+                dimensional professional with exceptional logical <br>
+                and analytical skills. <br> Experience in designing, 
+                developing, implementing and testing computer-based 
+                hardware and <br> software.Expert in working on integrating 
+                software programs with computer hardware.
+            
+            </td>
+        </tr> -->
+            
+        </table>
+        
+
+    </section>
+   
+    <img class= "containerHeader flex" src="line-40935.png" alt="----">
+
+    <p class="subhead semibold" style="padding: 0 5vw;">SKILLS</p>
+        
+    <div class="cont2">
+        <div class="box">
+          <div class="imgBx">
+            <img src="java.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>JAVA</h2>
+              <p>Android, OOPS, Selenium, Springboot
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="html.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>Image Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="css.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>Image Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="javascript.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>Image Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+              <img src="sql.png" class="imgadj">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Image Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    <img class= "containerHeader flex" src="line-40935.png" alt="----">
+
+    <p class="subhead semibold" style="padding: 0 5vw;">PROJECTS</p>
+
+
+    <!-- <section class="homeimg cont2 flex flex-wrap">
+        <img class="projects" src="" alt="" >
+        <p class="projects">LUDO GAME</p>
+        <img class="projects" src="" alt="">
+        <img class="projects" src="" alt="">
+        <img class="projects" src="projportfolio.png " alt="">
+    </section> -->
+
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade defdisplay">
+      <div class="numbertext">1 / 4</div>
+      <img src="ludo.jpg" style="width:100%">
+      <div class="text">Python GUI</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="tic-tac-toe.png" style="width:100%">
+      <div class="text">Tic-Tac-Toe</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="analysis.png" style="width:100%">
+      <div class="text">Dashboard</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="projportfolio.png" style="width:100%">
+        <div class="text">Web Development</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+  </div>
+    
+    <img class= "containerHeader flex" src="line-40935.png" alt="----">
+
+
+</body>
+</html>

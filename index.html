@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="icon" href="portfolioicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="img.css">
+    <link rel="stylesheet" href="imgcor.css">
+
+    <script type="text/javascript" src="script.js"></script>
+  
+</head>
+<body>
+
+    <header class="container heads">
+
+        <nav class="flex space-between">
+            <div class="left flex items-center" style="margin: auto; gap: 1rem;">
+                <!-- <img style="width: 76px; height: 72px;" class="portfoliopic" src="port.png" alt="">
+                <img style="width: 76px; height: 72px;" class="portfoliopic" src="folio.png" alt=""> -->
+
+                <img style="margin: auto;" class="portfoliopic" src="portfolio (2).png" alt="">
+
+                <ul class="flex items-center justify-center uppercase semibold" style="
+                margin: auto;
+                padding-inline-start: 0px;">
+                    <li>
+                      <button class="button" onclick="window.location.reload()">Home</button>
+                    </li>
+                    <li>
+                      <button class="button" onclick="window.location.href='#second_section'">Skills</button>
+                    </li>
+                    <li>
+                      <a href="Paraminder 12008378 CV.pdf" download="Paraminder Singh Resume">
+                        <button class="button">Resume</button>
+                      </a>
+                    </li>
+                    <li>
+                      <button class="button" onclick="window.location.href='#third_section'" >Projects</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="right flex items-center semibold flex"
+            style="margin: auto;
+                    padding-top: 12px;">
+                <input class="search" placeholder="Search Skills, Projects" class= "" type="text">
+
+                <div class="rightBox">
+                    <div class="Contact mx-2">
+                      <button class="button" onclick="window.location.href='#fourth_section'">Contact</button>
+          
+                    </div>
+                    <div class="LinkedIn mx-2">
+                      <button class="button" onclick="parent.open('https://linkedin.com/in/paramsinghz/')">LinkedIn</button>
+                      
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<!-- SECTION 1 -->
+
+    <section class="container" style="
+    background-image: url('bg1.jpg');
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-size: 100% 1000px;
+        padding-bottom: 300px;">
+
+
+    <div class="containerHeader section1 flex" style="padding-top: 30px;">
+
+       <div style="
+       margin-left: 105px;
+       margin-right: 50px;">
+        <img class= "profilepic" src="pp.jpg" alt="img">
+
+       </div>
+               
+       
+       <div class="typingsize">
+
+        <div class="semibold name" style="margin: 0px 39px; padding-top: 34px;">
+          Hello, I'm
+        </div>
+        
+        <div class="tabletext" style="height:0px;">
+            
+            <div class="name semibold" id="demo"><span class = "auto-type"></span></div>
+            <script src="typed.js"></script>
+
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["Paraminder Singh", "Web Developer", "Data Analyst", "Musician"],
+                    typeSpeed: 60,
+                    backSpeed: 60,
+                    loop: true
+                })
+            </script>
+           
+        </div>   
+        
+        
+
+      
+      <div style="margin: 90px 35px;">
+        <a style="padding: 0px 4px;" href="https://github.com/paramsinghz/" target="_blank">
+          <img src="github.png" alt="buttonpng" style=" height: 43px; width: 44px;" />
+        </a>
+
+        <a style="padding: 0px 4px;" href="https://leetcode.com/paramsinghz/" target="_blank">
+          <img src="leetcode.png" alt="buttonpng" style=" height: 43px; width: 44px; border-radius: 50%;" />
+        </a>
+
+        <a style="padding: 0px 4px;" href="https://auth.geeksforgeeks.org/user/params966/" target="_blank">
+          <img src="gfg.png" alt="buttonpng" style=" height: 43px; width: 44px; border-radius: 50%;" />
+        </a>
+      </div>
+      
+      </div>
+    </div>
+
+  </section>
+   
+<!-- SECOND SECTION -->
+
+    <section class="bgimage " id="second_section">
+
+    <p class="subhead semibold" style="padding: 0 5vw; padding-top: 45px; text-align: center; color: #33475c;">Skills</p>
+        
+    <div class="cont2 container2">
+        <div class="box">
+          <div class="imgBx">
+            <img src="java.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>JAVA</h2>
+              <p>Android, OOPS, Selenium, Springboot
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="html.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>HTML</h2>
+              <p>Creating Webpages
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="css.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>CSS</h2>
+              <p>Styling Sheets
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="javascript.png" class="imgadj">
+          </div>
+          <div class="content">
+            <div>
+              <h2>JavaScript</h2>
+              <p>Make webpages functional
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+              <img src="sql.png" class="imgadj">
+            </div>
+            <div class="content">
+              <div>
+                <h2>MySQL</h2>
+                <p>DataBase Management
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+
+    <!-- <img class= "containerHeader flex" src="line-40935.png" alt="----" style="width: 100%;"> -->
+
+
+    <!-- Section3 -->
+
+    <section>
+    <div class="col-sm-7 mx-auto" >
+      <div class="section-header text-center" style="padding: 30px;">
+        <span class="h1 d-block">
+          
+        </span>
+        <h2 id="third_section">Projects</h2>
+      </div>
+    </div>
+    
+    <div id="flex-container" class="testimonials" >
+      <div id="left-zone">
+        <ul class="list">
+          <li class="item">
+            <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+            <label class="label_testimonial-1" for="radio_testimonial-1">Data Analysis</label>
+            <div class="content-test content_testimonial-1">
+              <span class="picto"></span>
+              <h1>Nifty-50 Analysis</h1>
+              <p>
+                Cleaned the Dataset with Tableau prep to analyze growth of various company stocks.
+               Used Charts to create a dashboard using Excel.
+               </p>
+              <p class="testimonialFrom">Data Analysis</p>
+              <p class="testimonialState">Nov '22</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+            <label class="label_testimonial-2" for="radio_testimonial-2">Ludo</label>
+            <div class="content-test content_testimonial-2">
+              <span class="picto"></span>
+              <h1>Ludo</h1>
+              <p>
+                Made a game using Python and GUI
+                Used Tkinter library to visualize.
+              </p>
+              <p class="testimonialFrom">Python GUI <i>(Tkinter)</i></p>
+              <p class="testimonialState">Nov '21</p>
+              <br>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+            <label class="label_testimonial-3" for="radio_testimonial-3">Tic-Tac-Toe</label>
+            <div class="content-test content_testimonial-3">
+              <span class="picto"></span>
+              <h1>Tic-Tac-Toe</h1>
+              <p>
+                Built a game using Java and Mini-Max algorithm to play the best 
+                move
+                Learned About using various Data Structures and Algorithms.
+              </p>
+              <p class="testimonialFrom">DSA, Java</p>
+              <p class="testimonialState">July '22</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
+            <label class="label_testimonial-4" for="radio_testimonial-4">Personal Portfolio</label>
+            <div class="content-test content_testimonial-4">
+              <span class="picto"></span>
+              <h1>Personal Portfolio</h1>
+              <p>
+                Made a Responsive Personal Portfolio using HTML, CSS and JavaScript.
+              </p>
+              <p class="testimonialFrom">Web Development</p>
+              <p class="testimonialState">Apr '23</p>
+              <br>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="right-zone"></div>
+    </div>
+  </section>
+
+</body>
+</html>
